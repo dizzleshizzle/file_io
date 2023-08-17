@@ -20,7 +20,7 @@ int linenumbers(string filename){
     return lines;
 }
 
-//put all lines in of the file and put them into array arr
+//read all lines in of the file and put them into array arr
 //untill the seperator string and then puts all remaining lines
 //into array brr
 void refi(string filename, string seperator, string arr[], string brr[]){
